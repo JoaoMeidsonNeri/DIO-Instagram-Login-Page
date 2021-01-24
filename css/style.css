@@ -1,0 +1,161 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+article{
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.phone{
+  align-self: flex-start;
+  max-width: 400px;
+  max-height: 500px;
+  margin-right: 3rem;
+}
+
+.phone img{
+  height: 620px;
+  width: 580px;
+}
+
+.container{
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.user-conteiner{
+  text-align: center;
+}
+
+.user{
+  border: solid rgb(206, 205, 205) 1px;
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  min-height: 380px;
+
+}
+
+.login {
+  align-items: center;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+}
+
+.login input{
+  font-size: 12px;
+  margin-bottom: 0.4rem;
+  padding: 10px;
+  width: 250px;
+}
+
+#or{
+  color: rgb(172, 171, 171);
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+}
+
+.enter{
+  color: white;
+  background-color: #91cff8;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  width: 18rem;
+}
+
+.enter:hover{
+  background-color: #0095f6;
+}
+
+.login-facebook{
+  align-items: center;
+  color:#385185;
+  display: flex;
+  height: 22px;
+  justify-content: center;
+  width: 268px;
+}
+
+.login-facebook i{
+  font-size: 20px;
+  margin-right: 7px;
+}
+
+.login-facebook a{
+  color: inherit;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-right: 7px;
+}
+
+.restore-password{
+  color:#385185;
+  font-size: 12px;
+}
+
+.signup{
+  display: flex;
+  border: solid rgb(206, 205, 205) 1px;
+  font-size: 14px;
+  justify-content: center;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 350px;
+}
+
+.signup p:last-child{
+  color: #0095f6;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+.apps img{
+  height: 40px;
+  width: 135px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin-bottom: 4rem;
+  position: end;
+  text-align: center;
+}
+
+footer a{
+  color: rgb(107, 104, 104);
+  margin-right: 5px;
+  text-decoration: none;
+
+}
+
+#language{
+  color: rgb(107, 104, 104);
+  margin-right: 8px;
+}
+
+.tier3{
+  color: rgb(107, 104, 104);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
